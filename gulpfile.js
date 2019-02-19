@@ -21,4 +21,4 @@ gulp.task('server', function() {
             fullback: 'index.html'
         }));
 });
-gulp.task('default', gulp.series('scss', 'watch', 'server'));
+gulp.task('default', gulp.series('scss', 'server', 'watch'));

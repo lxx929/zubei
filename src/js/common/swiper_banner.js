@@ -1,8 +1,8 @@
 /*
  * @Author: 刘祥祥 
  * @Date: 2018-10-26 14:44:17 
- * @Last Modified by:   mikey.zhaopeng 
- * @Last Modified time: 2018-10-26 16:24:44 
+ * @Last Modified by: mikey.zhaopeng
+ * @Last Modified time: 2019-02-19 09:29:14
  */
 
 var mySwiperWrap = new Swiper(".swiper-container", {

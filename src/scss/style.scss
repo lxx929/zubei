@@ -15,17 +15,29 @@ body,
 .wrapper {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 header {
     width: 100%;
     height: pxTorem(50px);
     padding: 0 pxTorem(15px);
+    position: absolute;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
 }
 
 section {
     width: 100%;
     flex: 1;
+    img {
+        width: 100%;
+        display: block;
+    }
 }
 
 footer {
